@@ -1,0 +1,94 @@
+body{
+    background-color: antiquewhite;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: width 400px;
+}
+.container{
+    width: 500px;
+    margin:auto;
+}
+.box-1{
+    border:1px solid black;
+    padding:20px;
+    margin:20px;
+}
+.box-2{
+    border:1px dotted black;
+    padding:20px;
+    margin:20px;
+    background-color: aquamarine;
+
+}
+.box-2 h1{
+    text-align:center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2cm;
+    word-spacing: 00.2cm;
+}
+a{
+   text-decoration:none;
+   color :black;
+}
+.element{
+    border:1px dotted black;
+    padding: 18px;
+    border-radius: 5px;
+}
+a:hover{
+color:blue;
+}
+li:nth-child(even){
+    background-color:rgb(162, 0, 255) ;
+    padding: 5px;
+    margin:5px;
+}
+li:nth-child(odd){
+    background-color:red ;
+    padding: 5px;
+    margin:5px;
+}
+.box-block{
+    border:1px solid royalblue;
+    width: 30%;
+    float: left;
+    padding:10px;
+    box-sizing: border-box;
+}
+ .clr{
+     clear:both;
+ }
+ .main-1{
+     float:left;
+     width:40%;
+     box-sizing: border-box;
+ }
+ .sub{
+     float:right;
+     width:40%;
+     background-color: rgb(0, 110, 255);
+     border:1px solid green;
+     box-sizing: border-box;
+     padding:20px;  
+ }
+ .pos-box{
+     width:700px;
+     height:500px;
+     border:1px solid black;
+     position:relative;
+ }
+ .pos-box h1{
+     position:absolute;
+     top:40px;
+     left:100px;
+ }
+ .pos-box h2{
+    position:absolute;
+    bottom:40px;
+    left:100px;
+}
+.pos-stack{
+    position:fixed;
+    top:50px;
+}
